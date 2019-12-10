@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1A1B1C;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.left-nav,
+.right-nav {
+    position: absolute;
+    color: white;
+    width: 50%;
+}
+
+.left-nav {
+    top: 20px;
+    left: 5%;
+}
+
+.right-nav {
+    top: 20px;
+    left: 90%;
+}
+
+.right-nav ion-icon {
+    font-size: 36px;
+}
+
+
+.container img:nth-child(1) {
+    position: absolute;
+    left: 417px;
+}
+
+.container img:nth-child(2) {
+    position: absolute;
+    left: 671px;
+}
+
+.container img:nth-child(3) {
+    position: absolute;
+    top: 494px;
+    left: 671px;
+}
+
+.left-col,
+.right-col {
+    position: absolute;
+    width: 50%;
+}
+
+.tagline {
+    position: relative;
+    top: 249px;
+    left: 348px;
+    font-size: 25px;
+}
+
+.singkatan {
+    position: absolute;
+    top: 245px;
+    left: 93px;
+    font-size: 220px;
+}
+
+.kepanjangan {
+    position: absolute;
+    top: 456px;
+    left: 268px;
+    font-size: 40px;
+}
+
+.inspiration {
+    position: absolute;
+    top: 571px;
+    left: 149px;
+}
+
+.inspiration h5 {
+    font-size: 20px;
+    color: #CE7A85;
+    display: inline;
+}
+
+.better {
+    position: absolute;
+    top: 571px;
+    left: 413px;
+}
+
+.better h5 {
+    font-size: 20px;
+    color: #4AB6D2;
+    display: inline;
+}
+
+.bottom ion-icon {
+    font-size: 20px;
+}
+
+.right-col {
+    left: 50%;
+}
+
+.indicator-1 {
+    position: absolute;
+    height: 100px;
+    width: 4px;
+    background-color: white;
+    top: 184px;
+    right: 28px;
+}
+
+.indicator-2 {
+    position: absolute;
+    height: 100px;
+    width: 4px;
+    background-color: #9F9F9F;
+    top: 300px;
+    right: 28px;
+}
+
+.indicator-3 {
+    position: absolute;
+    height: 100px;
+    width: 4px;
+    background-color: #9F9F9F;
+    top: 416px;
+    right: 28px;
+}
+
+.media-sosial {
+    position: absolute;
+    top: 600px;
+    right: 28px;
+}
+
+.media-sosial ion-icon {
+    font-size: 22px;
+    padding-right: 12px;
+}
+
+
+ul li {
+    display: inline;
+}
